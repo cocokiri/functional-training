@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
+<body>
+    <script>
+    const roles = ['yolo', 'hash', 'sep', 'fred', 'solo']
+    const userMap = {yolo: "ha", hash: "jewt", sep: "gnark", jim:'gnup'}
+    
+    console.log('roles', roles, 'usermap', userMap);
+
+    console.log(R.intersection(Object.keys(userMap), roles))
+            
+
+    </script>
+</body>
+</html>
